@@ -14,6 +14,113 @@
   font-display: swap;
 }
 
+/* Bubble Note */
+@font-face {
+  font-family: "Bubble Note";
+  src: url("../fonts/Bubble%20Note.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cheery Note */
+@font-face {
+  font-family: "Cheery Note";
+  src: url("../fonts/Cheery%20Note.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Cute Charm */
+@font-face {
+  font-family: "Cute Charm";
+  src: url("../fonts/Cute%20Charm.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Glee Script */
+@font-face {
+  font-family: "Glee Script";
+  src: url("../fonts/Glee%20Script.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Happy Hand */
+@font-face {
+  font-family: "Happy Hand";
+  src: url("../fonts/Happy%20Hand.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Jolly Scriptble */
+@font-face {
+  font-family: "Jolly Scriptble";
+  src: url("../fonts/Jolly%20Scriptble.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Lovely Letter */
+@font-face {
+  font-family: "Lovely Letter";
+  src: url("../fonts/Lovely%20Letter.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Playful Pen */
+@font-face {
+  font-family: "Playful Pen";
+  src: url("../fonts/Playful%20Pen.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Poppy Line */
+@font-face {
+  font-family: "Poppy Line";
+  src: url("../fonts/Poppy%20Line.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Smiley Script */
+@font-face {
+  font-family: "Smiley Script";
+  src: url("../fonts/Smiley%20Script.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Sunny Sketch */
+@font-face {
+  font-family: "Sunny Sketch";
+  src: url("../fonts/Sunny%20Sketch.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Whimsy Wonder */
+@font-face {
+  font-family: "Whimsy Wonder";
+  src: url("../fonts/Whimsy%20Wonder.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 /* College Black (OTF) */
 @font-face {
   font-family: "College Black";
@@ -33,8 +140,7 @@
 /* Chicago Athletic Script 1 */
 @font-face {
   font-family: "Chicago Athletic Script 1";
-  src: url("../fonts/Chicago%20Athletic%20Script%201.otf") format("opentype"),
-       url("../fonts/Chicago%20Athletic%20Script%201.ttf") format("truetype");
+  src: url("../fonts/Chicago%20Athletic%20Script%201.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -43,8 +149,7 @@
 /* Chicago Athletic Script 2 */
 @font-face {
   font-family: "Chicago Athletic Script 2";
-  src: url("../fonts/Chicago%20Athletic%20Script%202.otf") format("opentype"),
-       url("../fonts/Chicago%20Athletic%20Script%202.ttf") format("truetype");
+  src: url("../fonts/Chicago%20Athletic%20Script%202.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -53,8 +158,7 @@
 /* Chicago Athletic Slab Serif 1 */
 @font-face {
   font-family: "Chicago Athletic Slab Serif 1";
-  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%201.otf") format("opentype"),
-       url("../fonts/Chicago%20Athletic%20Slab%20Serif%201.ttf") format("truetype");
+  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%201.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -63,8 +167,7 @@
 /* Chicago Athletic Slab Serif 2 */
 @font-face {
   font-family: "Chicago Athletic Slab Serif 2";
-  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%202.otf") format("opentype"),
-       url("../fonts/Chicago%20Athletic%20Slab%20Serif%202.ttf") format("truetype");
+  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%202.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
