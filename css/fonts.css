@@ -1,0 +1,31 @@
+/*
+  fonts.css
+  - Khai báo @font-face để dùng qua CDN
+  - Đặt file .woff2 hoặc .otf vào thư mục `fonts/` và cập nhật đường dẫn bên dưới
+  - Khuyên dùng woff2 (nhẹ, hỗ trợ tốt). Luôn bật font-display: swap
+*/
+
+/* I Love You (OTF) */
+@font-face {
+  font-family: "I Love You";
+  src: url("../fonts/I%20Love%20You.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* College Black (OTF) */
+@font-face {
+  font-family: "College Black";
+  src: url("../fonts/College%20Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*
+  Gợi ý sử dụng trong CSS của dự án:
+  body { font-family: "I Love You", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; }
+*/
+
+
