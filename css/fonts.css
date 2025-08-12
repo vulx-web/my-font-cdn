@@ -29,3 +29,70 @@
 */
 
 
+
+/* Chicago Athletic Script 1 */
+@font-face {
+  font-family: "Chicago Athletic Script 1";
+  src: url("../fonts/Chicago%20Athletic%20Script%201.otf") format("opentype"),
+       url("../fonts/Chicago%20Athletic%20Script%201.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Chicago Athletic Script 2 */
+@font-face {
+  font-family: "Chicago Athletic Script 2";
+  src: url("../fonts/Chicago%20Athletic%20Script%202.otf") format("opentype"),
+       url("../fonts/Chicago%20Athletic%20Script%202.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Chicago Athletic Slab Serif 1 */
+@font-face {
+  font-family: "Chicago Athletic Slab Serif 1";
+  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%201.otf") format("opentype"),
+       url("../fonts/Chicago%20Athletic%20Slab%20Serif%201.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Chicago Athletic Slab Serif 2 */
+@font-face {
+  font-family: "Chicago Athletic Slab Serif 2";
+  src: url("../fonts/Chicago%20Athletic%20Slab%20Serif%202.otf") format("opentype"),
+       url("../fonts/Chicago%20Athletic%20Slab%20Serif%202.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Retro Vintage */
+@font-face {
+  font-family: "Retro Vintage";
+  src: url("../fonts/Retro%20Vintage.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Simple Stacked */
+@font-face {
+  font-family: "Simple Stacked";
+  src: url("../fonts/Simple%20Stacked.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Triple Rainbow */
+@font-face {
+  font-family: "Triple Rainbow";
+  src: url("../fonts/Triple%20Rainbow.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
