@@ -22,7 +22,7 @@ const FAMILY_MAP = (() => {
     map.get(k).variants.push({ file, weight, style });
   }
 
-  // Known fonts in /fonts
+  // Known fonts in /fonts (OTF earlier; now also WOFF/WOFF2 naming scheme supported by static CSS)
   add('I Love You', 'I Love You.otf');
   add('Bubble Note', 'Bubble Note.otf');
   add('Cheery Note', 'Cheery Note.otf');
@@ -46,6 +46,15 @@ const FAMILY_MAP = (() => {
   add('Triple Rainbow', 'Triple Rainbow.otf');
   add('Grinch Wave', 'Grinch Wave.otf');
   add('Wicked Halloween', 'Wicked Halloween.otf');
+  // Heart Style families (woff/woff2 files present)
+  add('Heart Style - Tail', 'HeartStyleTail.woff2');
+  add('Heart Style - Tail', 'HeartStyleTail.woff');
+  add('Heart Style - Tail Heart', 'HeartStyleTailHeart.woff2');
+  add('Heart Style - Tail Heart', 'HeartStyleTailHeart.woff');
+  add('Heart Style - Heart', 'HeartStyleHeart.woff2');
+  add('Heart Style - Heart', 'HeartStyleHeart.woff');
+  add('Heart Style', 'HeartStyle.woff2');
+  add('Heart Style', 'HeartStyle.woff');
 
   return map;
 })();

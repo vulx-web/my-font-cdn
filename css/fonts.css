@@ -205,8 +205,6 @@
   font-display: swap;
 }
 
-
-
 @font-face {
   font-family: 'Heart Style - Tail';
   src: url('/fonts/HeartStyleTail.woff2') format('woff2'),
@@ -226,6 +224,15 @@
 }
 
 @font-face {
+  font-family: 'Heart Style - Heart';
+  src: url('/fonts/HeartStyleHeart.woff2') format('woff2'),
+      url('/fonts/HeartStyleHeart.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'Heart Style';
   src: url('/fonts/HeartStyle.woff2') format('woff2'),
       url('/fonts/HeartStyle.woff') format('woff');
@@ -234,10 +241,12 @@
   font-display: swap;
 }
 
+
+
 @font-face {
-  font-family: 'Heart Style - Heart';
-  src: url('/fonts/HeartStyleHeart.woff2') format('woff2'),
-      url('/fonts/HeartStyleHeart.woff') format('woff');
+  font-family: 'Heart Style - Tail';
+  src: url('/fonts/HeartStyleTail.woff2') format('woff2'),
+      url('/fonts/HeartStyleTail.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
