@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Chicago Athletic';
+    src: url('ChicagoAthletic-Script1.woff2') format('woff2'),
+        url('ChicagoAthletic-Script1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chicago Athletic';
+    src: url('ChicagoAthletic-SlabSerif1.woff2') format('woff2'),
+        url('ChicagoAthletic-SlabSerif1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chicago Athletic';
+    src: url('ChicagoAthletic-Script2.woff2') format('woff2'),
+        url('ChicagoAthletic-Script2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cute Charm';
+    src: url('CuteCharmRegular.woff2') format('woff2'),
+        url('CuteCharmRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Chicago Athletic';
+    src: url('ChicagoAthletic-SlabSerif2.woff2') format('woff2'),
+        url('ChicagoAthletic-SlabSerif2.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bubble Note';
+    src: url('BubbleNoteRegular.woff2') format('woff2'),
+        url('BubbleNoteRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cheery Note';
+    src: url('CheeryNoteRegular.woff2') format('woff2'),
+        url('CheeryNoteRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'College';
+    src: url('CollegeBlackRegular.woff2') format('woff2'),
+        url('CollegeBlackRegular.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppy Line';
+    src: url('PoppyLineRegular.woff2') format('woff2'),
+        url('PoppyLineRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'I Love You';
+    src: url('ILoveYou-Regular.woff2') format('woff2'),
+        url('ILoveYou-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Happy Hand';
+    src: url('HappyHandRegular.woff2') format('woff2'),
+        url('HappyHandRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lovely Letter';
+    src: url('LovelyLetterRegular.woff2') format('woff2'),
+        url('LovelyLetterRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playful Pen';
+    src: url('PlayfulPenRegular.woff2') format('woff2'),
+        url('PlayfulPenRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Glee Script';
+    src: url('GleeScriptRegular.woff2') format('woff2'),
+        url('GleeScriptRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grinch Wave';
+    src: url('GrinchWave.woff2') format('woff2'),
+        url('GrinchWave.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jolly Scriptble';
+    src: url('JollyScriptbleRegular.woff2') format('woff2'),
+        url('JollyScriptbleRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Smiley Script';
+    src: url('SmileyScriptRegular.woff2') format('woff2'),
+        url('SmileyScriptRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sunny Sketch';
+    src: url('SunnySketchRegular.woff2') format('woff2'),
+        url('SunnySketchRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Retro Vintage';
+    src: url('RetroVintageRegular.woff2') format('woff2'),
+        url('RetroVintageRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whimsy Wonder';
+    src: url('WhimsyWonderRegular.woff2') format('woff2'),
+        url('WhimsyWonderRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Triple Rainbow';
+    src: url('TripleRainbowRegular.woff2') format('woff2'),
+        url('TripleRainbowRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Simple Stacked';
+    src: url('SimpleStackedRegular.woff2') format('woff2'),
+        url('SimpleStackedRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Wicked Halloween';
+    src: url('WickedHalloweenRegular.woff2') format('woff2'),
+        url('WickedHalloweenRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

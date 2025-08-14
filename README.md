@@ -22,6 +22,8 @@ Thêm vào HTML của bạn:
 
 ```html
 <link rel="stylesheet" href="https://<domain-or-cdn>/css/fonts.css" />
+<!-- Hoặc dùng endpoint động kiểu Google Fonts -->
+<link rel="stylesheet" href="https://<domain-or-cdn>/api/fonts.css?family=I+Love+You&family=College+Black&display=swap" />
 ```
 
 Sau đó dùng trong CSS:
