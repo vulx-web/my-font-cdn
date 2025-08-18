@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Chicago Athletic';
-  src: url('/fonts/ChicagoAthletic-Script1.woff2') format('woff2'),
-      url('/fonts/ChicagoAthletic-Script1.woff') format('woff');
+  src: url('/fonts/ChicagoAthletic-Script1.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -9,8 +8,7 @@
 
 @font-face {
   font-family: 'Chicago Athletic';
-  src: url('/fonts/ChicagoAthletic-SlabSerif1.woff2') format('woff2'),
-      url('/fonts/ChicagoAthletic-SlabSerif1.woff') format('woff');
+  src: url('/fonts/ChicagoAthletic-SlabSerif1.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,8 +16,7 @@
 
 @font-face {
   font-family: 'Chicago Athletic';
-  src: url('/fonts/ChicagoAthletic-Script2.woff2') format('woff2'),
-      url('/fonts/ChicagoAthletic-Script2.woff') format('woff');
+  src: url('/fonts/ChicagoAthletic-Script2.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,8 +24,7 @@
 
 @font-face {
   font-family: 'Cute Charm';
-  src: url('/fonts/CuteCharmRegular.woff2') format('woff2'),
-      url('/fonts/CuteCharmRegular.woff') format('woff');
+  src: url('/fonts/CuteCharmRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -36,8 +32,7 @@
 
 @font-face {
   font-family: 'Chicago Athletic';
-  src: url('/fonts/ChicagoAthletic-SlabSerif2.woff2') format('woff2'),
-      url('/fonts/ChicagoAthletic-SlabSerif2.woff') format('woff');
+  src: url('/fonts/ChicagoAthletic-SlabSerif2.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -45,8 +40,7 @@
 
 @font-face {
   font-family: 'Bubble Note';
-  src: url('/fonts/BubbleNoteRegular.woff2') format('woff2'),
-      url('/fonts/BubbleNoteRegular.woff') format('woff');
+  src: url('/fonts/BubbleNoteRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -54,17 +48,15 @@
 
 @font-face {
   font-family: 'Cheery Note';
-  src: url('/fonts/CheeryNoteRegular.woff2') format('woff2'),
-      url('/fonts/CheeryNoteRegular.woff') format('woff');
+  src: url('/fonts/CheeryNoteRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'College';
-  src: url('/fonts/CollegeBlackRegular.woff2') format('woff2'),
-      url('/fonts/CollegeBlackRegular.woff') format('woff');
+  font-family: 'College Black';
+  src: url('/fonts/CollegeBlackRegular.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -72,8 +64,7 @@
 
 @font-face {
   font-family: 'Poppy Line';
-  src: url('/fonts/PoppyLineRegular.woff2') format('woff2'),
-      url('/fonts/PoppyLineRegular.woff') format('woff');
+  src: url('/fonts/PoppyLineRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -81,8 +72,7 @@
 
 @font-face {
   font-family: 'I Love You';
-  src: url('/fonts/ILoveYou-Regular.woff2') format('woff2'),
-      url('/fonts/ILoveYou-Regular.woff') format('woff');
+  src: url('/fonts/ILoveYou-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -90,8 +80,7 @@
 
 @font-face {
   font-family: 'Happy Hand';
-  src: url('/fonts/HappyHandRegular.woff2') format('woff2'),
-      url('/fonts/HappyHandRegular.woff') format('woff');
+  src: url('/fonts/HappyHandRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -99,8 +88,7 @@
 
 @font-face {
   font-family: 'Lovely Letter';
-  src: url('/fonts/LovelyLetterRegular.woff2') format('woff2'),
-      url('/fonts/LovelyLetterRegular.woff') format('woff');
+  src: url('/fonts/LovelyLetterRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -108,8 +96,7 @@
 
 @font-face {
   font-family: 'Playful Pen';
-  src: url('/fonts/PlayfulPenRegular.woff2') format('woff2'),
-      url('/fonts/PlayfulPenRegular.woff') format('woff');
+  src: url('/fonts/PlayfulPenRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -117,8 +104,7 @@
 
 @font-face {
   font-family: 'Glee Script';
-  src: url('/fonts/GleeScriptRegular.woff2') format('woff2'),
-      url('/fonts/GleeScriptRegular.woff') format('woff');
+  src: url('/fonts/GleeScriptRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -126,8 +112,7 @@
 
 @font-face {
   font-family: 'Grinch Wave';
-  src: url('/fonts/GrinchWave.woff2') format('woff2'),
-      url('/fonts/GrinchWave.woff') format('woff');
+  src: url('/fonts/GrinchWave.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -135,8 +120,7 @@
 
 @font-face {
   font-family: 'Jolly Scriptble';
-  src: url('/fonts/JollyScriptbleRegular.woff2') format('woff2'),
-      url('/fonts/JollyScriptbleRegular.woff') format('woff');
+  src: url('/fonts/JollyScriptbleRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -144,8 +128,7 @@
 
 @font-face {
   font-family: 'Smiley Script';
-  src: url('/fonts/SmileyScriptRegular.woff2') format('woff2'),
-      url('/fonts/SmileyScriptRegular.woff') format('woff');
+  src: url('/fonts/SmileyScriptRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -153,8 +136,7 @@
 
 @font-face {
   font-family: 'Sunny Sketch';
-  src: url('/fonts/SunnySketchRegular.woff2') format('woff2'),
-      url('/fonts/SunnySketchRegular.woff') format('woff');
+  src: url('/fonts/SunnySketchRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -162,8 +144,7 @@
 
 @font-face {
   font-family: 'Retro Vintage';
-  src: url('/fonts/RetroVintageRegular.woff2') format('woff2'),
-      url('/fonts/RetroVintageRegular.woff') format('woff');
+  src: url('/fonts/RetroVintageRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -171,8 +152,7 @@
 
 @font-face {
   font-family: 'Whimsy Wonder';
-  src: url('/fonts/WhimsyWonderRegular.woff2') format('woff2'),
-      url('/fonts/WhimsyWonderRegular.woff') format('woff');
+  src: url('/fonts/WhimsyWonderRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -180,8 +160,7 @@
 
 @font-face {
   font-family: 'Triple Rainbow';
-  src: url('/fonts/TripleRainbowRegular.woff2') format('woff2'),
-      url('/fonts/TripleRainbowRegular.woff') format('woff');
+  src: url('/fonts/TripleRainbowRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -189,8 +168,7 @@
 
 @font-face {
   font-family: 'Simple Stacked';
-  src: url('/fonts/SimpleStackedRegular.woff2') format('woff2'),
-      url('/fonts/SimpleStackedRegular.woff') format('woff');
+  src: url('/fonts/SimpleStackedRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -198,8 +176,7 @@
 
 @font-face {
   font-family: 'Wicked Halloween';
-  src: url('/fonts/WickedHalloweenRegular.woff2') format('woff2'),
-      url('/fonts/WickedHalloweenRegular.woff') format('woff');
+  src: url('/fonts/WickedHalloweenRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -207,8 +184,7 @@
 
 @font-face {
   font-family: 'Heart Style - Tail';
-  src: url('/fonts/HeartStyleTail.woff2') format('woff2'),
-      url('/fonts/HeartStyleTail.woff') format('woff');
+  src: url('/fonts/HeartStyleTail.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -216,8 +192,7 @@
 
 @font-face {
   font-family: 'Heart Style - Tail Heart';
-  src: url('/fonts/HeartStyleTailHeart.woff2') format('woff2'),
-      url('/fonts/HeartStyleTailHeart.woff') format('woff');
+  src: url('/fonts/HeartStyleTailHeart.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -225,8 +200,7 @@
 
 @font-face {
   font-family: 'Heart Style - Heart';
-  src: url('/fonts/HeartStyleHeart.woff2') format('woff2'),
-      url('/fonts/HeartStyleHeart.woff') format('woff');
+  src: url('/fonts/HeartStyleHeart.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -234,21 +208,16 @@
 
 @font-face {
   font-family: 'Heart Style';
-  src: url('/fonts/HeartStyle.woff2') format('woff2'),
-      url('/fonts/HeartStyle.woff') format('woff');
+  src: url('/fonts/HeartStyle.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-
-
 
 @font-face {
-  font-family: 'Heart Style - Tail';
-  src: url('/fonts/HeartStyleTail.woff2') format('woff2'),
-      url('/fonts/HeartStyleTail.woff') format('woff');
+  font-family: 'Benefit';
+  src: url('/fonts/BenefitRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
-

@@ -22,39 +22,36 @@ const FAMILY_MAP = (() => {
     map.get(k).variants.push({ file, weight, style });
   }
 
-  // Known fonts in /fonts (OTF earlier; now also WOFF/WOFF2 naming scheme supported by static CSS)
-  add('I Love You', 'I Love You.otf');
-  add('Bubble Note', 'Bubble Note.otf');
-  add('Cheery Note', 'Cheery Note.otf');
-  add('Cute Charm', 'Cute Charm.otf');
-  add('Glee Script', 'Glee Script.otf');
-  add('Happy Hand', 'Happy Hand.otf');
-  add('Jolly Scriptble', 'Jolly Scriptble.otf');
-  add('Lovely Letter', 'Lovely Letter.otf');
-  add('Playful Pen', 'Playful Pen.otf');
-  add('Poppy Line', 'Poppy Line.otf');
-  add('Smiley Script', 'Smiley Script.otf');
-  add('Sunny Sketch', 'Sunny Sketch.otf');
-  add('Whimsy Wonder', 'Whimsy Wonder.otf');
-  add('College Black', 'College Black.otf', 900);
-  add('Chicago Athletic Script 1', 'Chicago Athletic Script 1.otf');
-  add('Chicago Athletic Script 2', 'Chicago Athletic Script 2.otf');
-  add('Chicago Athletic Slab Serif 1', 'Chicago Athletic Slab Serif 1.otf');
-  add('Chicago Athletic Slab Serif 2', 'Chicago Athletic Slab Serif 2.otf');
-  add('Retro Vintage', 'Retro Vintage.otf');
-  add('Simple Stacked', 'Simple Stacked.otf');
-  add('Triple Rainbow', 'Triple Rainbow.otf');
-  add('Grinch Wave', 'Grinch Wave.otf');
-  add('Wicked Halloween', 'Wicked Halloween.otf');
-  // Heart Style families (woff/woff2 files present)
-  add('Heart Style - Tail', 'HeartStyleTail.woff2');
+  // Known fonts in /fonts (WOFF format)
+  add('I Love You', 'ILoveYou-Regular.woff');
+  add('Bubble Note', 'BubbleNoteRegular.woff');
+  add('Cheery Note', 'CheeryNoteRegular.woff');
+  add('Cute Charm', 'CuteCharmRegular.woff');
+  add('Glee Script', 'GleeScriptRegular.woff');
+  add('Happy Hand', 'HappyHandRegular.woff');
+  add('Jolly Scriptble', 'JollyScriptbleRegular.woff');
+  add('Lovely Letter', 'LovelyLetterRegular.woff');
+  add('Playful Pen', 'PlayfulPenRegular.woff');
+  add('Poppy Line', 'PoppyLineRegular.woff');
+  add('Smiley Script', 'SmileyScriptRegular.woff');
+  add('Sunny Sketch', 'SunnySketchRegular.woff');
+  add('Whimsy Wonder', 'WhimsyWonderRegular.woff');
+  add('College Black', 'CollegeBlackRegular.woff', 900);
+  add('Chicago Athletic', 'ChicagoAthletic-Script1.woff');
+  add('Chicago Athletic', 'ChicagoAthletic-Script2.woff');
+  add('Chicago Athletic', 'ChicagoAthletic-SlabSerif1.woff');
+  add('Chicago Athletic', 'ChicagoAthletic-SlabSerif2.woff');
+  add('Retro Vintage', 'RetroVintageRegular.woff');
+  add('Simple Stacked', 'SimpleStackedRegular.woff');
+  add('Triple Rainbow', 'TripleRainbowRegular.woff');
+  add('Grinch Wave', 'GrinchWave.woff');
+  add('Wicked Halloween', 'WickedHalloweenRegular.woff');
+  // Heart Style families
   add('Heart Style - Tail', 'HeartStyleTail.woff');
-  add('Heart Style - Tail Heart', 'HeartStyleTailHeart.woff2');
   add('Heart Style - Tail Heart', 'HeartStyleTailHeart.woff');
-  add('Heart Style - Heart', 'HeartStyleHeart.woff2');
   add('Heart Style - Heart', 'HeartStyleHeart.woff');
-  add('Heart Style', 'HeartStyle.woff2');
   add('Heart Style', 'HeartStyle.woff');
+  add('Benefit', 'BenefitRegular.woff');
 
   return map;
 })();
@@ -75,7 +72,8 @@ function toCss(display, families) {
   for (const fam of families) {
     for (const v of fam.variants) {
       const filePath = '/fonts/' + encodeURIComponent(v.file).replace(/%2520/g, '%20');
-      css += `@font-face{font-family:"${fam.family}";src:url("${filePath}") format("opentype");font-weight:${v.weight};font-style:${v.style};font-display:${display};}\n`;
+      const format = v.file.endsWith('.woff') ? 'woff' : 'woff2';
+      css += `@font-face{font-family:"${fam.family}";src:url("${filePath}") format("${format}");font-weight:${v.weight};font-style:${v.style};font-display:${display};}\n`;
     }
   }
   return css;
